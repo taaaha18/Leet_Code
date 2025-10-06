@@ -1,5 +1,5 @@
 def isHappy(n):
-    seen = set()  # to detect cycles
+    seen = set()  
 
     while n != 1 and n not in seen:
         seen.add(n)
